@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dhc_sim"
+version = "0.1.0"
+dependencies = [
+    "jupyter",
+    "geopandas",
+    "osmnx",
+    "networkx",
+    "shapely",
+    "modelica_builder",
+    "lxml",
+    "uesgraphs @ git+https://github.com/dwolfesberger/uesgraphs.git",
+    "teaserplus @ git+https://github.com/dwolfesberger/TEASERPLUS.git"
+]
+requires-python = ">=3.8,<=3.12.3"
+
+[tool.setuptools]
+packages = ["dhc_sim"]

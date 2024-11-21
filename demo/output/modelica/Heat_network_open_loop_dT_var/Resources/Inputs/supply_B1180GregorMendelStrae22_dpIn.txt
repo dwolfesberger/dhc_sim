@@ -1,0 +1,4 @@
+#1
+double dpIn(1, 2)
+# Supply dpIn for B1180GregorMendelStrae22
+0   600000.00

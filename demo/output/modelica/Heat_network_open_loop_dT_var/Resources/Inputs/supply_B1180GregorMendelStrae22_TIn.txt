@@ -1,0 +1,4 @@
+#1
+double TIn(1, 2)
+# Supply TIn for B1180GregorMendelStrae22
+0   353.15
